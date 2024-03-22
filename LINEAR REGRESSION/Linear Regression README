@@ -1,99 +1,14 @@
 
-Linear Regression README
-Equation of a Line
-In the equation 
-�
-=
-�
-�
-+
-�
-y=mx+c, 
-�
-m represents the slope of the line, and 
-�
-c represents the y-intercept.
+Equation of a Line: In y = mx + c, m represents the slope and c represents the y-intercept. It's explained further in the accompanying file.
 
-Slope (
-�
-m):
-The slope (
-�
-m) of a line describes its steepness or incline. It indicates how much 
-�
-y changes for a unit change in 
-�
-x. A positive slope implies an upward trend, while a negative slope implies a downward trend.
+Gradient Descent: Utilized for optimizing linear regression parameters iteratively, detailed explanations are provided in the associated document.
 
-Y-intercept (
-�
-c):
-The y-intercept (
-�
-c) is the point where the line intersects the y-axis. It represents the value of 
-�
-y when 
-�
-x is 0, determining the starting point of the line on the y-axis.
+Cost Function: Quantifies the difference between predicted and actual values, facilitating the best-fit line determination.
 
-Example
-Consider a linear relationship between hours studied (
-�
-x) and test scores (
-�
-y). If 
-�
-=
-2
-m=2 and 
-�
-=
-5
-c=5, the equation 
-�
-=
-2
-�
-+
-5
-y=2x+5 predicts the test score based on hours studied.
+Parameter Derivation: Details how derivatives guide parameter updates towards minimizing the cost function.
 
-Aim of Linear Regression
-The aim is to find the best-fit line that minimizes the distance between predicted and actual points.
+Implementation: Discusses the practical application of gradient descent in finding optimal parameters.
 
-Cost Function
-The cost function quantifies the difference between predicted and actual values. It's minimized to find the best-fit line.
+Process: Outlines the iterative steps involved in gradient descent for parameter optimization.
 
-Gradient Descent
-Gradient descent optimizes the linear regression equation by adjusting slope (
-�
-m) and y-intercept (
-�
-c) parameters iteratively.
-
-Derivation of Parameters
-Derivatives of cost function with respect to 
-�
-m and 
-�
-c guide parameter updates towards minimizing the cost function.
-
-Implementation
-Implementing gradient descent helps find optimal parameters that minimize prediction error, resulting in accurate predictions.
-
-Process
-Start with initial 
-�
-m and 
-�
-c values.
-Use current 
-�
-m and 
-�
-c to predict values.
-Compute cost function.
-Update parameters using gradient descent.
-Repeat steps 2-4 until convergence.
-Conclusion
-Linear regression with gradient descent optimizes parameters to fit data, enabling accurate predictions in real-world scenarios.
+Conclusion: Summarizes the significance of gradient descent in achieving accurate predictions in linear regression tasks.
